@@ -1,5 +1,17 @@
 describe('Users factory', function () {
-    it('has a dummy spec to test 2+2', function () {
-        expect().toEqual(4);
+    var Users;
+
+    // Before each test, load the api.users module
+    beforeEach(angular.mock.module('api.users'));
+
+    // Before each test, set the Users variable to the factory
+    beforeEach(inject(function (_Users_) {
+        Users = _Users_;
+    }));
+
+    // Test for existence
+    it('should exist', function () {
+        expect(Users).toBeDefined();
     });
+
 });
