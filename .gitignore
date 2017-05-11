@@ -1,4 +1,4 @@
-*/node_modules
+*/node_modules/
 
 ### Linux template
 *~
@@ -38,7 +38,6 @@ $RECYCLE.BIN/
 
 # IntelliJ project files
 .idea
-*.iml
 out
 gen### Vim template
 # swap

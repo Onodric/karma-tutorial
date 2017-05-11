@@ -12,12 +12,17 @@ Clone repo and run npm install
 - node.js
 - nodemon
 - npm
-- bower
-- Angular
-- Karma
-- Jasmine
 - Express
 - body-parser
 - morgan
 - path
 - Bootstrap
+- Karma
+    - Karma-cli
+    - Karma-jasmine
+    - Karma-chrome-launcher
+    - Karma-spec-reporter
+- Jasmine-core
+- AngularJS
+    - ui-router/angularjs
+    - angular-mocks
