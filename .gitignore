@@ -38,7 +38,6 @@ $RECYCLE.BIN/
 
 # IntelliJ project files
 .idea
-*.iml
 out
 gen### Vim template
 # swap

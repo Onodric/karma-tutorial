@@ -21,6 +21,7 @@ Clone repo and run npm install
     - Karma-cli
     - Karma-jasmine
     - Karma-chrome-launcher
+    - Karma-spec-reporter
 - Jasmine-core
 - AngularJS
     - ui-router/angularjs
